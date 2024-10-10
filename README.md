@@ -18,8 +18,10 @@ $$
 Key features of the 2D simulation:
 - Initialization of a 2D grid with specific initial conditions
 - Implementation of the above reaction-diffusion equations
-- Parameter optimization using machine learning techniques
+- Parameter optimization using machine learning techniques such as the Adam optimizer from JAX
 - Visualization of results, including initial state, final state, and target shapes
+
+One example output of the 2D optimization is the image below, showing the dynamics of U1 at the center point, initial and final shapes, and target shapes:
 
 ### 2. 3D Diffusion Simulation Test
 

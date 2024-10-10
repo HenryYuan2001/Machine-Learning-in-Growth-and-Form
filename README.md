@@ -30,8 +30,8 @@ As a preliminary step towards a full 3D reaction-diffusion system, we have imple
 ## Results
 
 After running the 2D simulation, you should see output similar to the image below, showing the dynamics of U1 at the center point, initial and final shapes, and target shapes:
+![2D](https://github.com/user-attachments/assets/d45053bd-cba4-49a4-8aa1-8db457121485)
 
-[Insert results image here]
 
 ## Future Work
 

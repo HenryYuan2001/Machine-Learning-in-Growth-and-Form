@@ -22,6 +22,8 @@ Key features of the 2D simulation:
 - Visualization of results, including initial state, final state, and target shapes
 
 One example output of the 2D optimization is the image below, showing the dynamics of U1 at the center point, initial and final shapes, and target shapes:
+![2D](https://github.com/user-attachments/assets/ee344a5e-8e08-464e-9579-1ea82b86a632)
+
 
 ### 2. 3D Diffusion Simulation Test
 
@@ -30,7 +32,6 @@ As a preliminary step towards a full 3D reaction-diffusion system, we have imple
 ## Results
 
 After running the 2D simulation, you should see output similar to the image below, showing the dynamics of U1 at the center point, initial and final shapes, and target shapes:
-![2D](https://github.com/user-attachments/assets/d45053bd-cba4-49a4-8aa1-8db457121485)
 
 
 ## Future Work

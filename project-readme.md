@@ -8,7 +8,12 @@ This project explores the application of machine learning techniques to reaction
 
 We have implemented a 2D reaction-diffusion simulation using Python and JAX. The simulation is based on the following equations:
 
-[Insert equation image here]
+$$
+\begin{align*}
+\partial_t U_a &= \frac{\sum w_{ab}U_b}{(1 + \sum w_{a\beta}\mu_\beta)^2} - U_a^3 + D_a \partial^2 U_a \[10pt]
+\partial_t \mu_\alpha &= \frac{\sum w_{\alpha b}U_b}{(1 + \sum w_{\alpha\beta}\mu_\beta)^2} - \mu_\alpha^3 + D_b \partial^2 \mu_\alpha
+\end{align*}
+$$
 
 Key features of the 2D simulation:
 - Initialization of a 2D grid with specific initial conditions

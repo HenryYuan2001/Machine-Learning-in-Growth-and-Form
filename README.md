@@ -18,7 +18,7 @@ $$
 Key features of the 2D simulation:
 - Initialization of a 2D grid with specific initial conditions 
 - Implementation of the reaction-diffusion equations using Python and JAX and write the diffusion simulation based on discrete laplacian operator in uniform 2D grid
-- Parameter optimization of w matrix and diffusion coefficients using machine learning techniques
+- Parameter optimization of w matrix and diffusion coefficients using Adam optimizer from Jax
 - Custom loss function for shape targeting
 - Visualization of results, including initial state, final state, and target shapes
 

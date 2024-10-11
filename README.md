@@ -1,6 +1,6 @@
 # Machine-Learning-in-Growth-and-Form
 
-This project explores the application of machine learning techniques to reaction-diffusion equations, with a focus on simulating growth and form in biological systems. Currently, it includes a 2D reaction-diffusion simulation and a 3D diffusion test using libigl.
+This project explores the application of machine learning techniques to reaction-diffusion equations, with a focus on simulating growth and form in biological systems. Currently, it includes reaction-diffusion simulation in 2D and 3D.
 
 ## Project Overview
 

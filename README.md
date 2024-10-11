@@ -16,22 +16,23 @@ $$
 $$
 
 Key features of the 2D simulation:
-- Initialization of a 2D grid with specific initial conditions
-- Implementation of the above reaction-diffusion equations
-- Parameter optimization using machine learning techniques such as the Adam optimizer from JAX
+- Initialization of a 2D grid with specific initial conditions 
+- Implementation of the reaction-diffusion equations using Python and JAX and write the diffusion simulation based on discrete laplacian operator in uniform 2D grid
+- Parameter optimization of w matrix and diffusion coefficients using machine learning techniques
+- Custom loss function for shape targeting
 - Visualization of results, including initial state, final state, and target shapes
 
-One example output of the 2D optimization is the image below, showing the dynamics of U1 at the center point, initial and final shapes, and target shapes:
-![2D](https://github.com/user-attachments/assets/ee344a5e-8e08-464e-9579-1ea82b86a632)
+The image below presents an output from 2D optimization. It depicts the behavior of U1 and U2, initially concentrated in two nearby point sources. As the simulation progresses, we observe the diffusion of these components across the grid. Our optimization algorithm attempts to adjust the w matrix and diffusion coefficients, aiming to approximate target shapes resembling two ellipses polarized in different directions. The visualization includes the time evolution at the center point, initial and final states, and the intended target shapes.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ee344a5e-8e08-464e-9579-1ea82b86a632" alt="2D Optimization Results" width="800"/>
+</p>
 
 
 ### 2. 3D Diffusion Simulation Test
 
-As a preliminary step towards a full 3D reaction-diffusion system, we have implemented a basic 3D diffusion simulation using libigl. This demonstrates our ability to work with 3D geometries and sets the stage for more complex 3D simulations in the future.
+As a preliminary step towards a full 3D reaction-diffusion system, we have implemented a basic 3D diffusion simulation using libigl. This demonstrates our ability to work with 3D geometries and sets the stage for more complex 3D simulations in the future. While in 2D we can safely compute discrete Laplacian, in 3D we need to use comatrix since the mesh might not necessarily be uniform, which we use from comatrix from libigl. 
 
-## Results
-
-After running the 2D simulation, you should see output similar to the image below, showing the dynamics of U1 at the center point, initial and final shapes, and target shapes:
+So the code diffusion_simulation 
 
 
 ## Future Work

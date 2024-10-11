@@ -114,7 +114,6 @@ def init_params():
     }
 
 params = init_params()
-# Compute cotangent Laplacian (this should be done once, outside the function)
 L = igl.cotmatrix(v, f)
 L_csr = L.tocsr()
 

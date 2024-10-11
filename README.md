@@ -46,6 +46,20 @@ Combining the 2D optimization into the 3D setting and using libigl for a more ge
   <img width="800" alt="Screenshot 2024-10-10 at 8 43 04 PM" src="https://github.com/user-attachments/assets/30b13767-4fde-477e-a0e4-cd92e85e0b97">
 </p>
 
+Moreover, for more non-trivial cases in 3D optimization, suppose we set our target shape to spherical harmonics projected on the upper hemisphere, for U1 we choose $Y_3^2$ and for U2 we choose $Y_4^3$. The results roughly capture the desired target shape. 
+<p align="center">
+  <img width="800" alt="Screenshot 2024-10-11 at 6 30 15 AM" src="https://github.com/user-attachments/assets/f26f3fa6-c1b0-4cee-b3dd-12c362a4c05f">
+  <img width="800" alt="Screenshot 2024-10-11 at 6 30 38 AM" src="https://github.com/user-attachments/assets/d5dafe14-abfd-4240-baca-1c4a914be1f3">
+<p>
+
+The loss function over iteration looks like this: 
+<p align="center">
+   <img width="800" alt="Screenshot 2024-10-11 at 6 30 56 AM" src="https://github.com/user-attachments/assets/850c681d-033d-4de5-9539-8ecb0308344e">
+<p>
+
+
+
+
 ## Contact
 
 Henry Yuan - hengyuan@ucsb.edu

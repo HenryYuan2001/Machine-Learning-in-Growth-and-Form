@@ -11,8 +11,8 @@ We have implemented a 2D reaction-diffusion simulation using Python and JAX. The
 $$
 \Huge
 \begin{align*}
-\partial_t U_a &= \frac{\sum w_{ab}U_b}{(1 + \sum w_{a\beta}\mu_\beta)^2} - U_a^3 + D_a \partial^2 U_a \\
-\partial_t \mu_\alpha &= \frac{\sum w_{\alpha b}U_b}{(1 + \sum w_{\alpha\beta}\mu_\beta)^2} - \mu_\alpha^3 + D_b \partial^2 \mu_\alpha
+\partial_t U_a &= \frac{\sum w_{ab}U_b}{1 + (\sum w_{a\beta}\mu_\beta)^2} - U_a^3 + D_a \partial^2 U_a \\
+\partial_t \mu_\alpha &= \frac{\sum w_{\alpha b}U_b}{1 + (\sum w_{\alpha\beta}\mu_\beta)^2} - \mu_\alpha^3 + D_b \partial^2 \mu_\alpha
 \end{align*}
 $$
 
